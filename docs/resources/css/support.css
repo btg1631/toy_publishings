@@ -1,0 +1,47 @@
+body {
+    background-color: aliceblue;
+}
+.front {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-4 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-5 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-11 {
+    justify-content: end;
+    
+}
+
+.list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style: none;
+}
+.list-1 {
+    list-style: none;
+}
+a {
+    color: dodgerblue;
+}
