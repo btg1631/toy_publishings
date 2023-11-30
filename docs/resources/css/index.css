@@ -43,6 +43,7 @@ h1 {
 .grid {
     display:grid;
     grid-template-columns: auto;
+    justify-content: center;
 }
 .grid-a {
     display: grid;
@@ -51,6 +52,7 @@ h1 {
     margin: 20px;
     text-align: center;
     list-style: none;
+    justify-content: center;
     
 }
 .grid-b {
@@ -101,6 +103,10 @@ li {
 .text-big {
     font-size: 35px;
     margin-bottom: 20px;
+}
+
+table {
+    justify-content: center;
 }
 
 
