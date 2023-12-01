@@ -61,12 +61,16 @@ h1 {
     margin: 10px;
     border-radius: 10px;
 }
-.grid-c {
+.grid-c, .grid-ca {
     display: grid;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
     background-color: rgb(245, 245, 245);
     border-radius: 10px 10px 0px 0px;
     height: 60px;
+}
+.grid-ca {
+    background-color: rgb(31, 119, 235);
+    color: white;
 }
 .text-a {
     margin-top: 12px;
@@ -82,8 +86,8 @@ h1 {
 }
 button {
     display: grid;
-    border: 1px solid dodgerblue;
-    color: dodgerblue;
+    border: 1px solid rgb(31, 119, 235);
+    color: rgb(31, 119, 235);
     margin: 10px;
     padding-top: 10px;
     height: 45px;
@@ -92,19 +96,45 @@ button {
 }
 .blue {
     color: white;
-    background-color: rgb(22, 96, 206);
+    background-color: rgb(31, 119, 235);
 }
-
 li {
     text-decoration: none;
     font-size: 15px;
 }
-
 .text-big {
     font-size: 35px;
     margin-bottom: 20px;
+    color: black;
 }
 
+/* tabel  */
+table {
+    display: grid;
+    justify-content: center;
+}
+.text-c {
+    font-size: 40px;
+}
+tbody, tr, th {
+    border-bottom: 1px solid lightgray;
+}
+tr {
+    height: 45px;
+}
+.tb-a {
+    width: 300px;
+    text-align:left;
+}
+.tb-b {
+    width: 200px;
+}
+.tb-c {
+    width: 200px;
+}
+.tb-d {
+    width: 200px;
+}
 
 
 
@@ -113,11 +143,20 @@ li {
     display: grid;
     list-style: none;
     grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+    justify-content: center;
+    
 }
 .grid-2 {
     display: grid;
+    padding-right: 140px;
+
 }
 
 button:hover {
-    background-color: blue;
+    background-color: rgb(23, 91, 180);
+}
+
+li {
+    color: rgb(161, 159, 159);
 }
