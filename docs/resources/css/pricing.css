@@ -1,0 +1,163 @@
+/* top menu */
+.nav-c {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+nav {
+    display: grid;
+    grid-template-columns: 900px;
+    justify-content: center;
+}
+.nav-a {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav {
+    grid-template-columns: auto auto;
+    justify-content: start;
+    font-size: 25px;
+}
+.nav-c {
+    grid-template-columns: auto auto auto auto;
+    justify-content: end;
+}
+.nav-d {
+    padding: 10px;
+}
+
+
+/* main */
+main {
+    text-align: center;
+}
+h1 {
+    font-size: 45px;
+}
+.grid {
+    display:grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.grid-a {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    
+}
+.grid-b {
+    display: grid;
+    border: 1px solid gray;
+    margin: 10px;
+    border-radius: 10px;
+}
+.grid-c, .grid-ca {
+    display: grid;
+    border-bottom: 1px solid gray;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px 10px 0px 0px;
+    height: 60px;
+}
+.grid-ca {
+    background-color: rgb(31, 119, 235);
+    color: white;
+}
+.text-a {
+    margin-top: 12px;
+    font-size: 25px;
+}
+.text-ab {
+    margin-top: 12px;
+    font-size: 25px;
+}
+.text-b {
+    margin-top: 10%;
+    height: 160px;
+}
+button {
+    display: grid;
+    border: 1px solid rgb(31, 119, 235);
+    color: rgb(31, 119, 235);
+    margin: 10px;
+    padding-top: 10px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.blue {
+    color: white;
+    background-color: rgb(31, 119, 235);
+}
+li {
+    text-decoration: none;
+    font-size: 15px;
+}
+.text-big {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* tabel  */
+table {
+    display: grid;
+    justify-content: center;
+}
+.text-c {
+    font-size: 40px;
+}
+tbody, tr, th {
+    border-bottom: 1px solid lightgray;
+}
+tr {
+    height: 45px;
+}
+.tb-a {
+    width: 300px;
+    text-align:left;
+}
+.tb-b {
+    width: 200px;
+}
+.tb-c {
+    width: 200px;
+}
+.tb-d {
+    width: 200px;
+}
+hr {
+    width: 920px;
+}
+
+/* footer */
+.grid-1 {
+    display: grid;
+    list-style: none;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+    justify-content: center;
+    
+}
+.grid-2 {
+    display: grid;
+    padding-right: 140px;
+
+}
+
+button:hover {
+    background-color: rgb(23, 91, 180);
+}
+
+li {
+    color: rgb(161, 159, 159);
+}
