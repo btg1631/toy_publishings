@@ -2,13 +2,19 @@
 .nav-c {
     list-style: none;
     display: grid;
+    grid-template-columns: auto auto auto auto;
 }
-
 nav {
+    display: grid;
+    grid-template-columns: 900px;
+    justify-content: center;
+}
+.nav-a {
     display: grid;
     grid-template-columns: auto auto;
     border-bottom: 1px solid lightgray;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -18,16 +24,10 @@ a {
     justify-content: start;
     font-size: 25px;
 }
-
-.nav-b {
-   
-}
-
 .nav-c {
     grid-template-columns: auto auto auto auto;
     justify-content: end;
 }
-
 .nav-d {
     padding: 10px;
 }
@@ -135,8 +135,9 @@ tr {
 .tb-d {
     width: 200px;
 }
-
-
+hr {
+    width: 920px;
+}
 
 /* footer */
 .grid-1 {
