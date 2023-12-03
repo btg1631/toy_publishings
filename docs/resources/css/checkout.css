@@ -1,6 +1,97 @@
-body {
-    background-color: rgb(247, 247, 247);
+p {
+    font-size: 20px;
+    font-weight: lighter;
 }
+body {
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 50px;
+}
+.main-center {
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+
 h4 {
     text-align: start;
 }
+.group {
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    padding: 7px 10px 7px 10px;
+}
+
+.image {
+    justify-content: center;
+    text-align: center;
+}
+.three {
+    text-align: end;
+
+}
+.textcolor {
+    color: rgb(0, 102, 255);
+}
+
+.card {
+    width: 100%;
+}
+.card-body {
+    margin-left: 0px;
+}
+
+.cart {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.text-1 {
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.text-2 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.text-3 {
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(26, 142, 28);
+}
+ul {
+    padding:0;
+}
+.list {
+    border-bottom: 1px solid lightgray;
+}
+.list-1 {
+    border-bottom: 1px solid lightgray;
+    background-color: rgb(242, 242, 242);
+}
+
+.main-1 {
+    margin-top: 16px;
+}
+.btn-1 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+main {
+    margin-bottom: 100px;
+}
+.list-2 {
+    font-size: 16px;
+}
+.list-inline{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 5% 5% 5%;
+
+}
+
